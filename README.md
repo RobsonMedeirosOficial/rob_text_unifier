@@ -2,8 +2,27 @@
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Stable-green.svg)]()
 
-**Junte todos os arquivos do seu projeto em um único arquivo de texto para compartilhar contexto com IAs.**
+> **Consolide todo o código do seu projeto em um único arquivo de texto, com seções numeradas e formatação amigável para humanos e IAs.**
+
+---
+
+## 📋 Índice
+
+- [🎯 Objetivo](#-objetivo)
+- [🚀 Funcionalidades](#-funcionalidades)
+- [📦 Instalação](#-instalação)
+- [⚙️ Configuração](#️-configuração)
+- [📤 Formato da Saída](#-formato-da-saída)
+- [💡 Casos de Uso](#-casos-de-uso)
+- [🔍 Dicas de Busca](#-dicas-de-busca)
+- [🧪 Exemplo com IA](#-exemplo-com-ia)
+- [🔒 Segurança](#-segurança)
+- [🛠️ Troubleshooting](#️-troubleshooting)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🤝 Contribuindo](#-contribuindo)
+- [📄 Licença](#-licença)
 
 ---
 
@@ -27,10 +46,13 @@ Em vez de copiar e colar arquivos individualmente, o `rob_text_unifier` consolid
 |----------------|-----------|
 | 🔍 **Filtro por Nome** | Ignore arquivos específicos pelo nome exato (ex: `package-lock.json`) |
 | 📁 **Filtro por Pasta** | Pule pastas completas (ex: `node_modules`, `.git`, `__pycache__`) |
-| 📄 **Filtro por Extensão** | Ignore todas as arquivos de uma extensão (ex: `.log`, `.tmp`, `.bak`) |
-| 🎯 **Regra Parcial** | Ignore arquivos soltos em uma pasta, mas leia suas subpastas |
-| 📊 **Caminhos Relativos** | Mantém a estrutura de pastas no arquivo de saída |
-| 🛡️ **Tratamento de Erros** | Continua mesmo se algum arquivo não puder ser lido |
+| 📄 **Filtro por Extensão** | Ignore arquivos por extensão, com comparação **case-insensitive** (`.LOG`, `.log`, `.Log`) |
+| 🎯 **Regra Parcial** | Ignore arquivos soltos em uma pasta, mas continue lendo suas subpastas |
+| 🔣 **Encoding Inteligente** | Lê arquivos com múltiplos encodings (UTF-8, Latin-1, CP1252) automaticamente |
+| 📑 **Seções Numeradas** | Cada arquivo no output ganha um cabeçalho visual com `SECTION: X` para fácil busca |
+| 📊 **Estatísticas em Tempo Real** | Veja quantos arquivos foram processados e ignorados ao final da execução |
+| 🛡️ **Validação de Caminho** | Verifica se o diretório existe antes de iniciar o processamento |
+| 🔧 **Caminhos Windows Amigáveis** | Suporte nativo a caminhos com backslashes usando raw strings |
 
 ---
 
