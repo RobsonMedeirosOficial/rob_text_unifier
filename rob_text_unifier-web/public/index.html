@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consolide arquivos de projeto em um único texto para compartilhar contexto com IAs">
+    <title>rob_text_unifier - Unifique seu Código para IAs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <span class="logo-text">rob_text_unifier</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#how-it-works">Como Funciona</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="https://github.com/SEU_USUARIO/rob_text_unifier" target="_blank" class="btn-github">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <div class="badge">🎯 Perfeito para IAs</div>
+            <h1>Unifique Todo Seu Código em <span class="highlight">Um Único Arquivo</span></h1>
+            <p class="hero-description">
+                Compartilhe o contexto completo do seu projeto com ChatGPT, Claude e outras IAs. 
+                Sem copiar e colar arquivo por arquivo.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://github.com/SEU_USUARIO/rob_text_unifier" target="_blank" class="btn btn-primary">
+                    <span>📥 Baixar Agora</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+                <a href="#how-it-works" class="btn btn-secondary">Ver Como Funciona</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Open Source</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Dependências</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Python</span>
+                    <span class="stat-label">3.6+</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 60L48 55C96 50 192 40 288 38.3C384 36.7 480 43.3 576 51.7C672 60 768 70 864 71.7C960 73.3 1056 66.7 1152 61.7C1248 56.7 1344 53.3 1392 51.7L1440 50V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V60Z" fill="#0f172a"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">🔥 Funcionalidades Poderosas</h2>
+            <p class="section-subtitle">Tudo que você precisa para preparar seu código para IAs</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3>Filtro por Nome</h3>
+                    <p>Ignore arquivos específicos pelo nome exato como <code>package-lock.json</code>, <code>.gitignore</code>, etc.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🗂️</div>
+                    <h3>Filtro por Pasta</h3>
+                    <p>Pule pastas completas como <code>node_modules</code>, <code>.git</code>, <code>__pycache__</code> e muito mais.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📄</div>
+                    <h3>Filtro por Extensão</h3>
+                    <p>Ignore todas as arquivos de uma extensão: <code>.log</code>, <code>.tmp</code>, <code>.bak</code>, <code>.pyc</code>.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Regra Parcial</h3>
+                    <p>Ignore arquivos soltos em uma pasta, mas continue lendo suas subpastas. Controle total!</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Caminhos Relativos</h3>
+                    <p>Mantém a estrutura de pastas no arquivo de saída para fácil navegação e entendimento.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Tratamento de Erros</h3>
+                    <p>Continua executando mesmo se algum arquivo não puder ser lido. Sem travamentos!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">⚡ Como Funciona</h2>
+            <p class="section-subtitle">3 passos simples para ter seu código consolidado</p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Baixe o Script</h3>
+                        <p>Clone o repositório ou baixe o arquivo <code>rob_text_unifier.py</code></p>
+                        <pre><code>git clone https://github.com/SEU_USUARIO/rob_text_unifier.git</code></pre>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Configure os Filtros</h3>
+                        <p>Edite as listas de arquivos, pastas e extensões a ignorar</p>
+                        <pre><code>arquivos_ignorados = {"package-lock.json"}
+pastas_ignoradas = {"node_modules", ".git"}
+extensoes_ignoradas = {"log", "tmp"}</code></pre>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Execute e Use</h3>
+                        <p>Rode o script e copie o resultado para sua IA favorita</p>
+                        <pre><code>python rob_text_unifier.py
+# Gera: Backend-scripts.txt</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">💻 Veja o Resultado</h2>
+            <p class="section-subtitle">Exemplo de como o arquivo consolidado é gerado</p>
+
+            <div class="demo-container">
+                <div class="demo-tabs">
+                    <button class="demo-tab active" data-tab="input">📁 Estrutura</button>
+                    <button class="demo-tab" data-tab="output">📄 Output</button>
+                    <button class="demo-tab" data-tab="prompt">🤖 Prompt IA</button>
+                </div>
+
+                <div class="demo-content">
+                    <div class="demo-panel active" id="input">
+                        <h4>📁 Estrutura do Projeto</h4>
+                        <pre><code>projeto/
+├── src/
+│   ├── main.py          ✅ Incluído
+│   ├── utils/
+│   │   └── helpers.py   ✅ Incluído
+│   └── app.log          ❌ Ignorado (.log)
+├── node_modules/        ❌ Ignorado (pasta)
+├── .git/                ❌ Ignorado (pasta)
+├── package-lock.json    ❌ Ignorado (nome)
+└── README.md            ✅ Incluído</code></pre>
+                    </div>
+
+                    <div class="demo-panel" id="output">
+                        <h4>📄 Arquivo Gerado (Backend-scripts.txt)</h4>
+                        <pre><code>main.py
+caminho: ./src/main.py
+
+"""
+Módulo principal do projeto
+"""
+
+from src.utils import helpers
+
+def main():
+    print("Iniciando...")
+
+if __name__ == "__main__":
+    main()
+
+---
+
+helpers.py
+caminho: ./src/utils/helpers.py
+
+def log(mensagem):
+    print(f"[LOG] {mensagem}")
+
+---
+
+README.md
+caminho: ./README.md
+
+# Documentação do Projeto
+...</code></pre>
+                    </div>
+
+                    <div class="demo-panel" id="prompt">
+                        <h4>🤖 Prompt para IA</h4>
+                        <pre><code>Vou compartilhar o código completo do meu projeto.
+Analise a estrutura e me ajude a [SUA PERGUNTA].
+
+Aqui está o código consolidado:
+
+[COLE O CONTEÚDO DO ARQUIVO GERADO]</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>🚀 Pronto para Começar?</h2>
+            <p>Baixe agora e otimize seu fluxo de trabalho com IAs</p>
+            <a href="https://github.com/SEU_USUARIO/rob_text_unifier" target="_blank" class="btn btn-large">
+                <span>📥 Acessar no GitHub</span>
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🤖</span>
+                    <span class="logo-text">rob_text_unifier</span>
+                    <p>Unificando código para um futuro com IAs</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#how-it-works">Como Funciona</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/SEU_USUARIO/rob_text_unifier" target="_blank" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-6.005 0-1.32.465-2.415 1.23-3.285-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.87 1.23 1.95 1.23 3.285 0 4.68-2.805 5.7-5.475 6 .435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 rob_text_unifier. Feito com ❤️ para desenvolvedores.</p>
+                <p>Licença MIT</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
