@@ -40,7 +40,7 @@ Não requer instalação de dependências externas! Apenas Python 3.6+.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/rob_text_unifier.git
+git clone https://github.com/RobsonMedeirosOficial/rob_text_unifier.git
 
 # Entre na pasta
 cd rob_text_unifier
